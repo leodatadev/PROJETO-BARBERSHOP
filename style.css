@@ -112,15 +112,13 @@ i {
   justify-content: center;
   padding: 14px;
 }
-
-h1 {
+.hero h1 {
   text-align: center;
   line-height: 150%;
   max-width: 940px;
   font-size: 46px;
 }
-
-p {
+.hero p {
   text-align: center;
   margin: 14px 0;
 }
@@ -164,9 +162,6 @@ p {
   .hero h1 {
     font-size: 24px;
   }
-  .hero p {
-    font-size: 14px;
-  }
 }
 .about {
   background-color: #06121e;
@@ -207,6 +202,7 @@ p {
   background-color: #fff;
   color: #232224;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 54px 14px;
